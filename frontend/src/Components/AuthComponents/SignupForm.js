@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { DotsHorizontalIcon } from '@heroicons/react/solid'
 
-const SignupForm = (props: any) => {
+const SignupForm = (props) => {
     const [username, setUserName] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
